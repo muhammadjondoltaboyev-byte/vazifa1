@@ -100,3 +100,29 @@ def abs_son(a):
     if a < 0:
         return -a
     return a
+
+# 7-qadam. test funksiyalari
+
+if __name__ == "main":
+    print(hello())
+    print(kvadrat(5))
+    print(kub(3))
+    print(yigindi(5, 7))
+    print(ayirma(10, 2))
+    print(kopaytma(3, 4))
+    print(bolish(20, 5))
+    print(max_son(4, 8))
+    print(min_son(4, 8))
+    print(juftmi(12))
+    print(toqmi(7))
+    print(katta_harf("python"))
+    print(kichik_harf("PYTHON"))
+    print(teskari("GitHub"))
+    print(uzunligi("Python"))
+    print(yigindi_list([1, 2, 3, 4]))
+    print(eng_katta([5, 7, 1, 9]))
+    print(eng_kichik([5, 7, 1, 9]))
+    print(uzunligi_list([1, 2, 3]))
+    print(faktorial(5))
+    print(daraja(2, 5))
+    print(abs_son(-15))
