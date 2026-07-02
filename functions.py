@@ -59,3 +59,28 @@ def teskari(matn):
 
 def uzunligi(matn):
     return len(matn)
+
+# 5-qadam. list funksiyalari qoshildi
+
+def yigindi_list(lst):
+    yig = 0
+    for i in lst:
+        yig += i
+    return yig
+
+def eng_katta(lst):
+    max_val = lst[0]
+    for i in lst:
+        if i > max_val:
+            max_val = i
+    return max_val
+
+def eng_kichik(lst):
+    min_val = lst[0]
+    for i in lst:
+        if i < min_val:
+            min_val = i
+    return min_val
+
+def uzunligi_list(lst):
+    return len(lst)
