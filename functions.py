@@ -45,3 +45,17 @@ def toqmi(a):
     if a % 2 != 0:
         return True
     return False
+
+# 4-qadam. string funksiyalarini qoshish
+
+def katta_harf(matn):
+    return matn.upper()
+
+def kichik_harf(matn):
+    return matn.lower()
+
+def teskari(matn):
+    return matn[::-1]
+
+def uzunligi(matn):
+    return len(matn)
